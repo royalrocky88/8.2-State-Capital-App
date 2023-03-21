@@ -1,0 +1,102 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #93c5fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  background-color: #f8fafc;
+  font-family: roboto;
+  border-radius: 12px;
+  width: 60%;
+  max-width: 1110px;
+  height: 40%;
+  padding: 20px 0px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+  .card-container {
+    height: auto;
+    width: 98%;
+    padding: 10px 0px 10px 15px;
+  }
+}
+
+.head-card {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  .head-card {
+    font-size: 25px;
+  }
+}
+
+.capital-card {
+  width: 95%;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.select-card {
+  border-radius: 6px;
+  height: 60px;
+  width: 180px;
+  margin-right: 10px;
+  border: 1px solid #cbd2d9;
+  font-size: 20px;
+  font-weight: bold;
+  color: #323f4b;
+  background-color: #f8fafc;
+  padding-left: 10px;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .select-card {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 3px;
+  }
+}
+
+.option-card {
+  padding: 2px;
+}
+
+.text-card {
+  color: #1e293b;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .text-card {
+    font-size: 15px;
+  }
+}
+
+.country-card {
+  color: #000000;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 767px) {
+  .country-card {
+    font-size: 18px;
+  }
+}
